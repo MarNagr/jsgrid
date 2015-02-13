@@ -20,12 +20,12 @@ $.extend(true,$.jgrid,{
 		emptyrecords: "Brak rekordów do pokazania",
 		loadtext: "Ładowanie...",
 		pgtext : "Strona {0} z {1}",
-		pgfirst : "First Page",
-		pglast : "Last Page",
-		pgnext : "Next Page",
-		pgprev : "Previous Page",
-		pgrecs : "Records per Page",
-		showhide: "Toggle Expand Collapse Grid"
+		pgfirst : "Pierwsza strona",
+		pglast : "Ostatnia strona",
+		pgnext : "Następna strona",
+		pgprev : "Poprzednia strona",
+		pgrecs : "Rekordów na stronę",
+		showhide: "Zwiń/rozwiń tabelę"
 	},
 	search : {
 		caption: "Wyszukiwanie...",
@@ -33,8 +33,8 @@ $.extend(true,$.jgrid,{
 		Reset: "Czyść",
 		odata: [{ oper:'eq', text:"dokładnie"},{ oper:'ne', text:"różne od"},{ oper:'lt', text:"mniejsze od"},{ oper:'le', text:"mniejsze lub równe"},{ oper:'gt', text:"większe od"},{ oper:'ge', text:"większe lub równe"},{ oper:'bw', text:"zaczyna się od"},{ oper:'bn', text:"nie zaczyna się od"},{ oper:'in', text:"jest w"},{ oper:'ni', text:"nie jest w"},{ oper:'ew', text:"kończy się na"},{ oper:'en', text:"nie kończy się na"},{ oper:'cn', text:"zawiera"},{ oper:'nc', text:"nie zawiera"},{ oper:'nu', text:'is null'},{ oper:'nn', text:'is not null'}],
 		groupOps: [	{ op: "AND", text: "oraz" },	{ op: "OR",  text: "lub" }	],
-		operandTitle : "Click to select search operation.",
-		resetTitle : "Reset Search Value"
+		operandTitle : "Kliknij aby wybrać operację wyszukiwania.",
+		resetTitle : "Resetuj wyszukiwaną wartość"
 	},
 	edit : {
 		addCaption: "Dodaj rekord",
